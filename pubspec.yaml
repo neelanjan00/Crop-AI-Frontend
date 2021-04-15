@@ -1,0 +1,29 @@
+name: cropLeafDisease
+description: A new Flutter project.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  flutter_speed_dial: ^1.2.5
+  image_picker: 0.6.7+1
+  path: ^1.6.4
+
+  cupertino_icons: ^0.1.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  uses-material-design: true
+  assets:
+      - assets/crop.png
